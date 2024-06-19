@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astrounata no espaço CGI</title>
+    <style>
+        div#fora{
+         height: 97vh;
+         background: black url("imagens/espaco.jpg") center center no-repeat;
+         background-size: cover;
+         margin: -9px;
+         position: relative;
+        }
+        div#dentro{
+         background: transparent url("imagens/astronauta.png") center center no-repeat;
+         background-size: cover;
+         height: 400px;
+         width: 400px;
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+        } 
+    </style>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro">
+
+        </div>
+    </div>
+</body>
+</html>
