@@ -4,4 +4,4 @@
 <br>
 <a href="https://ericksm23.github.io/css-html/desafioos/desafio002/cgi.html">site do desafio002</a>
 <br>
-<a href="https://ericksm23.github.io/css-html/desafioos/desafio003/index.html">site desafio003</a>
+<a href="https://ericksm23.github.io/css-html/desafioos/desafio003/index.html">site do desafio003</a>
