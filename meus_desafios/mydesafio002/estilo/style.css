@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url("../fontes/Capture\ it.ttf");
+}
+
+@font-face {
+    font-family: 'normal';
+    src: url("../fontes/Nexa-Heavy.ttf");
+}
+
+@font-face {
+    font-family: 'imagem';
+    src: url("../fontes/TheNextFont.ttf");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+  /* CORES */
+   --color01: #0A4F00; 
+   --color02: #107D00; 
+   --color03: #20FC00; 
+   --color04: #15AB00; 
+   --color05: #20FC00; 
+
+   /* FONTES */
+    --titulo: 'titulo', 'Georgia', 'Times New Roman', Times, serif;
+    --normal: 'normal', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --imagem: 'imagem','Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+body{
+    background-color: black;
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+}
+
+header h1{
+    color: var(--color02);
+    text-transform: uppercase;
+    font-size: 8vw;
+    padding-top: 50px;
+    font-family: var(--titulo);
+    font-weight: normal;
+
+}
+
+header p{
+    color: var(--color02);
+    font-variant: small-caps;
+    font-size: 4vw;
+    padding-bottom: 50px;
+    font-family: var(--titulo);
+}
+
+section{
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    font-size: 3vw;
+    line-height: 2em;
+    padding-left: 10px;
+}
+
+section.normal{
+    background-color: white;
+    font-family: var(--normal);
+}
+
+section.imagem{
+    background-color:  #0A4F00;
+    font-family: var(--imagem);
+}
+
+footer{
+    text-align: center;
+    background-color: var(--color01);
+    font-family: var(--normal);
+}
+
+footer > p{
+    color: black;
+    font-variant: small-caps;
+    font-size: 3vw;
+    padding: 15px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--color05);
+}
