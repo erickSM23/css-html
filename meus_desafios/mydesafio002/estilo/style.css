@@ -47,7 +47,7 @@ header{
 header h1{
     color: var(--color02);
     text-transform: uppercase;
-    font-size: 8vw;
+    font-size: 8.7vw;
     padding-top: 50px;
     font-family: var(--titulo);
     font-weight: normal;
@@ -63,9 +63,9 @@ header p{
 }
 
 section{
-    padding-top: 30vh;
-    padding-bottom: 30vh;
-    font-size: 3vw;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    font-size: 3.7vw;
     line-height: 2em;
     padding-left: 10px;
 }
@@ -78,6 +78,30 @@ section.normal{
 section.imagem{
     background-color:  #0A4F00;
     font-family: var(--imagem);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.445);
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+section#img01{
+    background-image: url("../imagens/comandos02.jpeg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    color: var(--color01);
+    
+}
+
+section#img02{
+    background: url("../imagens/comandos03.png") center center no-repeat fixed;
+    background-size: cover;
+    color:  var(--color02);
 }
 
 footer{
@@ -91,15 +115,7 @@ footer > p{
     font-variant: small-caps;
     font-size: 3vw;
     padding: 15px;
-    
-}
-
-footer a{
-    text-decoration: none;
-    color: black;
-}
-
-footer a:hover{
     text-decoration: underline;
-    color: var(--color05);
 }
+
+
