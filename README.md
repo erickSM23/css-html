@@ -7,3 +7,5 @@
 <a href="https://ericksm23.github.io/css-html/desafioos/desafio003/index.html">site do desafio003</a>
 <br>
 <a href="https://ericksm23.github.io/css-html/meus_desafios/mydesafio001/index.html">site do mydesafio01</a>
+<br>
+<a href="https://ericksm23.github.io/css-html/meus_desafios/mydesafio002/index.html"></a>
