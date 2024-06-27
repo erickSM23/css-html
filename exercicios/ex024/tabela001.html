@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 2em;
+        }
+
+        td.cima{
+            text-align: center;
+            vertical-align: top;
+        }
+        
+        td.direita{
+            text-align: right;
+        }
+
+        td.baixo{
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        td.esquerda{
+            text-align: left;
+        }
+
+        
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+            color: red;
+        }
+
+    </style>  
+</head>
+<body>
+    <h1>minha primeira tabela</h1>
+
+    <!--
+     
+    TABLE = tabela
+    TABLE ROW = linha da tabela
+    TABLE HEADER = cabeçalho da tabela
+    TABLE DATA = dado da tabela
+     
+    <AS TAGS PARA TABELAS>
+
+    TABLE = table
+    TABLE ROW = tr
+    TABLE DATA = td
+    
+    -->
+
+    <table>
+        <tr> <!-- primeira linha da tabela --> 
+            <td class="cima">A1</td>
+            <td class="cima">B1</td>
+            <td class="cima">C1</td>
+        </tr>
+        <tr>
+            <td class="esquerda">A2</td>
+            <td></td>
+            <td class="direita">C2</td>
+        </tr>
+        <tr>
+            <td class="esquerda">A3</td>
+            <td></td>
+            <td class="direita">C3</td>     
+        </tr>
+        <tr>
+            <td class="baixo">A4</td>
+            <td class="baixo">B4</td>
+            <td class="baixo">C4</td>
+        </tr>
+
+    </table>
+    
+   
+</body>
+</html>
