@@ -9,11 +9,31 @@
             border: 1px solid black;
             width: 100px;
             padding: 5px;
-            
+            background-color: white;
+        }
+
+        td#ultimo{
+            width:200px;
+        }
+
+        td#reserva{
+            background-color: black;
+        }
+        
+        td#reserva:hover{
+            background-color: white;
         }
 
         table{
             border: 1px solid black;
+            width: 500px;
+            background-color: black;
+        }
+
+        h1#teste{
+            color: rgb(0, 255, 0);
+            text-align: center;
+            font-size: 100em;
         }
     </style>
 </head>
@@ -21,12 +41,14 @@
     <h1>tabelas simples</h1> <!--criarei uma table pequena usando a estrura de uma tabela grande-->
 
     <table>
+        <caption>tabelas meio simples</caption>
+        
         <thead>
             
             <tr>
-                <th>frutas</th>
-                <th>verduras</th>
-                <th>grãos</th>
+                <th scope="col">frutas</th>
+                <th scope="col">verduras</th>
+                <th scope="col">grãos</th>
             </tr>
         </thead>
         <tbody>
@@ -44,9 +66,12 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>essa foi uma breve apresentação</td>
+                <td id="ultimo">essa foi uma breve apresentação</td>
+                <td id="reserva"></td>
             </tr>
         </tfoot>
     </table>
+    
+    <h1  id="teste">S</h1>
 </body>
 </html>

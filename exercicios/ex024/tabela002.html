@@ -14,14 +14,23 @@
             border-collapse: collapse;
         }
 
+        caption{
+            border: 1px solid black;
+            padding: 10px;
+        }
         
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
 
+        th#população{
+            width: 100px;
+        }
+
         td.popu{
             text-align: right;
+       
         }
 
         thead, tfoot{
@@ -34,10 +43,12 @@
 <body>
     
     <table>
+        <caption>população dos estados</caption>
+        
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" id="população">população</th>
             </tr>
         </thead>
         <tbody>
@@ -59,7 +70,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>total de habitantes</th>
+            <th scope="row">total de habitantes:</th>
             <td>0000</td>
         </tfoot>
     </table>
