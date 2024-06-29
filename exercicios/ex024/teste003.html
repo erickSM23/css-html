@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            
+            border: 3px solid black;
+            text-align: center;
+            margin-bottom: 150px;
+            font-size: 4em;
+            font-weight: lighter;
+            border-radius: 50px;
+            padding: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        table{
+            border-collapse: separate;
+            border: 1px solid black;
+        }
+
+        caption{
+            padding: 30px;
+            margin-bottom: -3px;
+            border: 2px solid black;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bolder;
+        }
+
+        td{
+            border: 1px solid black;
+            width: 900px;
+            color: blue;
+            font-size: 2em;
+            font-weight: bolder;
+        }
+
+        th{
+            border: 1px solid black;
+            width: 900px;
+            font-size: 2em;
+           
+        }
+
+        td.direita{
+            text-align: right;
+            color: rgb(0, 255, 0);
+        }
+
+        td.centro{
+            text-align: center;
+            color: red;
+        }
+
+        td#ex01{
+            color: purple;
+        }
+        
+        td#ex02{
+            color: purple;
+        }
+
+        td#ex03{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas</h1>
+
+    <table>
+        <caption>itens e seus preços</caption> 
+        
+        <thead>
+            <tr>
+                <th scope="col">marca:</th>
+                <th scope="col">modelo:</th>
+                <th scope="col">ano:</th>
+                <th scope="col">valor:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+            <tr>
+                <td>volkswagen</td>
+                <td>golf</td>
+                <td class="centro">2019</td>
+                <td class="direita">R$38.500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">o melhor preço da região > </th>
+                <td class="centro" id="ex01">desconto de 30%</td>
+                <td class="centro" id="ex02">leve 1 pague dois</td>
+                <td class="centro" id="ex03">leve 2 pague 5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
