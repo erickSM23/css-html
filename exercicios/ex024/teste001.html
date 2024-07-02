@@ -8,12 +8,17 @@
 
         table{
             border: 1px solid black;
-           
+            width: 400px;
+            font-size: 2em;
         }
 
         td{
             border: 1px solid black;
-            width:10px;
+         
+        }
+
+        td#fim{
+            text-align: center;
         }
 
         th{
@@ -21,15 +26,32 @@
            
         }
 
+        col.cor01{
+            background-color: red;
+            color: rgb(0, 255, 0);
+
+        }
+        col.cor02{
+            background-color: green;
+            color: red;
+        }
+        col.cor03{
+            
+        }
     </style>
 </head>
 <body>
     <h1>criando tabela simples</h1>
     <table>
+        <colgroup>
+            <col class="cor01">
+            <col class="cor02">
+            <col class="cor03">
+        </colgroup>
         <tr>
-            <th>frutas</th>
-            <th>verduras</th>
-            <th>grãos</th>
+            <th scope="col">frutas</th>
+            <th scope="col">verduras</th>
+            <th scope="col">grãos</th>
         </tr>
         <tr>
             <td>maça</td>
@@ -42,7 +64,7 @@
             <td>trigo</td>
         </tr>
         <tr>
-            <td>essa foi uma breve apresentação</td>
+            <td colspan="3" id="fim">essa foi uma breve apresentação</td>
         </tr>
     </table>
 </body>
