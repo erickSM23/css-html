@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafios das tabelas</title>
+    <style>
+        body{
+            background: black url("imagem/photo-1623227413711-25ee4388dae3.avif") center center no-repeat fixed;
+            font-family: arial,helvetica,sans-serif;
+            background-size: cover;            
+            font-size: 2em;
+            height: 97vh;
+        }
+
+        table{
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+        }
+
+        thead th{
+            background-color: gold;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        th.medias{
+            background-color: black;
+            text-align: left;
+            color: red;
+        }
+
+        th.sei{
+            color: white;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        tbody td{
+            color: white;
+        }
+
+        td.notas{
+            background-color: black;
+            color: rgb(0, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">area</th>
+                <th rowspan="2" scope="col">diciplina</th>
+                <th colspan="2" scope="colgroup">notas</th>
+                <th rowspan="2" scope="col">media</th>
+            </tr>
+            <tr>
+                <th scope="col">nota1</th>
+                <th scope="col">nota2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" class="sei">exatas</th>
+                <td>matematica</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>biologia</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="medias" scope="row">media de exatas</th>
+                <td class="notas">10.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" class="sei">humanas</th>
+                <td>historia</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>geografia</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="medias" scope="row">medias de humanas</th>
+                <td class="notas">10.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
