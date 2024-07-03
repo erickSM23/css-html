@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando tabelas completas</title>
+    <style>
+        body{
+            background: black url("imagem/programador.avif") center center no-repeat fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            background-size: cover;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            background-image: linear-gradient(to top,blue,gold, red, rgb(0, 255, 0));
+            border-collapse: collapse;
+            position: relative;
+            font-size: 2em;
+            margin: auto;
+        }
+
+        th{
+            border: 1px solid black;
+            background-color: black;
+            padding: 10px;
+            color: red;
+        }
+
+        thead th{
+            background-color: black;
+            position: sticky;
+            color: gold;
+            top: -1px;
+        }
+        
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.esquerda{
+            text-align: left;
+            color: blue;
+        }
+        td.centro{
+            text-align: center;
+            color: gold;
+        }
+        td.direita{
+            text-align: right;
+            color: rgb(0, 255, 0);
+        }
+
+        tfoot td{
+            background-color: black;
+            color: rgb(0, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>tabela completa</h1>
+    
+    <table>
+        <colgroup>
+            <col class="primeira">
+            <col class="segunda">
+            <col class="terceira">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">nome</th>
+                <th scope="col">idade</th>
+                <th scope="col">profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="esquerda">capitão nascimento</td>
+                <td class="centro">33</td>
+                <td class="direita">policial militar</td>
+            </tr>
+            <tr>
+                <td class="esquerda">nantes</td>
+                <td class="centro">35</td>
+                <td class="direita">sargento do exercito</td>
+            </tr>
+            <tr>
+                <td class="esquerda">bruce baner</td>
+                <td class="centro">42</td>
+                <td class="direita">vingador</td>
+            </tr>
+            <tr>
+                <td class="esquerda">super xandão</td>
+                <td class="centro">1000</td>
+                <td class="direita">ultimo heroi da terra </td>
+            </tr>
+            <tr>
+                <td class="esquerda">chapolin colorado</td>
+                <td  class="centro">90</td>
+                <td class="direita">heroi</td>
+            </tr>
+            <tr>
+                <td class="esquerda">tanjiro kamado</td>
+                <td class="centro">23</td>
+                <td class="direita">caçador de oni</td>
+            </tr>
+            <tr>
+                <td class="esquerda">capitão nascimento</td>
+                <td class="centro">33</td>
+                <td class="direita">policial militar</td>
+            </tr>
+            <tr>
+                <td class="esquerda">nantes</td>
+                <td class="centro">35</td>
+                <td class="direita">sargento do exercito</td>
+            </tr>
+            <tr>
+                <td class="esquerda">bruce baner</td>
+                <td class="centro">42</td>
+                <td class="direita">vingador</td>
+            </tr>
+            <tr>
+                <td class="esquerda">super xandão</td>
+                <td class="centro">1000</td>
+                <td class="direita">ultimo heroi da terra </td>
+            </tr>
+            <tr>
+                <td class="esquerda">chapolin colorado</td>
+                <td  class="centro">90</td>
+                <td class="direita">heroi</td>
+            </tr>
+            <tr>
+                <td class="esquerda">tanjiro kamado</td>
+                <td class="centro">23</td>
+                <td class="direita">caçador de oni</td>
+            </tr>
+            <tr>
+                <td class="esquerda">capitão nascimento</td>
+                <td class="centro">33</td>
+                <td class="direita">policial militar</td>
+            </tr>
+            <tr>
+                <td class="esquerda">nantes</td>
+                <td class="centro">35</td>
+                <td class="direita">sargento do exercito</td>
+            </tr>
+            <tr>
+                <td class="esquerda">bruce baner</td>
+                <td class="centro">42</td>
+                <td class="direita">vingador</td>
+            </tr>
+            <tr>
+                <td class="esquerda">super xandão</td>
+                <td class="centro">1000</td>
+                <td class="direita">ultimo heroi da terra </td>
+            </tr>
+            <tr>
+                <td class="esquerda">chapolin colorado</td>
+                <td  class="centro">90</td>
+                <td class="direita">heroi</td>
+            </tr>
+            <tr>
+                <td class="esquerda">tanjiro kamado</td>
+                <td class="centro">23</td>
+                <td class="direita">caçador de oni</td>
+            </tr>
+            <tr>
+                <td class="esquerda">capitão nascimento</td>
+                <td class="centro">33</td>
+                <td class="direita">policial militar</td>
+            </tr>
+            <tr>
+                <td class="esquerda">nantes</td>
+                <td class="centro">35</td>
+                <td class="direita">sargento do exercito</td>
+            </tr>
+            <tr>
+                <td class="esquerda">bruce baner</td>
+                <td class="centro">42</td>
+                <td class="direita">vingador</td>
+            </tr>
+            <tr>
+                <td class="esquerda">super xandão</td>
+                <td class="centro">1000</td>
+                <td class="direita">ultimo heroi da terra </td>
+            </tr>
+            <tr>
+                <td class="esquerda">chapolin colorado</td>
+                <td  class="centro">90</td>
+                <td class="direita">heroi</td>
+            </tr>
+            <tr>
+                <td class="esquerda">tanjiro kamado</td>
+                <td class="centro">23</td>
+                <td class="direita">caçador de oni</td>
+            </tr>
+            <tr>
+                <td class="esquerda">capitão nascimento</td>
+                <td class="centro">33</td>
+                <td class="direita">policial militar</td>
+            </tr>
+            <tr>
+                <td class="esquerda">nantes</td>
+                <td class="centro">35</td>
+                <td class="direita">sargento do exercito</td>
+            </tr>
+            <tr>
+                <td class="esquerda">bruce baner</td>
+                <td class="centro">42</td>
+                <td class="direita">vingador</td>
+            </tr>
+            <tr>
+                <td class="esquerda">super xandão</td>
+                <td class="centro">1000</td>
+                <td class="direita">ultimo heroi da terra </td>
+            </tr>
+            <tr>
+                <td class="esquerda">chapolin colorado</td>
+                <td  class="centro">90</td>
+                <td class="direita">heroi</td>
+            </tr>
+            <tr>
+                <td class="esquerda">tanjiro kamado</td>
+                <td class="centro">23</td>
+                <td class="direita">caçador de oni</td>
+            </tr>
+            <tr>
+                <td class="esquerda">capitão nascimento</td>
+                <td class="centro">33</td>
+                <td class="direita">policial militar</td>
+            </tr>
+            <tr>
+                <td class="esquerda">nantes</td>
+                <td class="centro">35</td>
+                <td class="direita">sargento do exercito</td>
+            </tr>
+            <tr>
+                <td class="esquerda">bruce baner</td>
+                <td class="centro">42</td>
+                <td class="direita">vingador</td>
+            </tr>
+            <tr>
+                <td class="esquerda">super xandão</td>
+                <td class="centro">1000</td>
+                <td class="direita">ultimo heroi da terra </td>
+            </tr>
+            <tr>
+                <td class="esquerda">chapolin colorado</td>
+                <td  class="centro">90</td>
+                <td class="direita">heroi</td>
+            </tr>
+            <tr>
+                <td class="esquerda">tanjiro kamado</td>
+                <td class="centro">23</td>
+                <td class="direita">caçador de oni</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2" scope="row">total de dinheiro:</th>
+                <td class="direita">12345678910</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
