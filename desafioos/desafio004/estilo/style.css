@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'principal';
+    src: url("../fontes/Another\ Danger\ -\ Demo.otf");
+}
+
+@font-face {
+    font-family: 'hs';
+    src: url("../fontes/MondaySans.ttf");
+}
+
+@font-face {
+    font-family: tex;
+    src: url("../fontes/Russian.ttf");
+}
 
 *{
     margin: 0px;
@@ -7,5 +21,38 @@
 }
 
 :root{
+    --color1: #8C030E; 
+    --color2: #260104; 
+    --color3: #8C031C; 
+    --color4: #40010D; 
+    --color5: #0D0D0D; 
+
+    --fontnormal:Arial, Helvetica, sans-serif;
+    --fontprincipal:'principal';
+    --fonths:'hs';
+    --fonttex:tex;
+}
+
+body{
+    background-color: #8C030E;
+}
+
+header{
+    background-color:black;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fontprincipal);
+    color: var(--color1);
+    font-weight: 550;
+    font-size: 4em;
+    padding: 50px;
+}
+
+main{
+    background-color: white;
+    min-width: 350px;
+    max-width: 1000px
     
 }
