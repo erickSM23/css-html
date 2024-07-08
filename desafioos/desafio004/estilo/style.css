@@ -48,7 +48,7 @@ header > h1{
     color: var(--color1);
     text-transform: uppercase;
     font-weight: 550;
-    font-size: 3em;
+    font-size: 1em;
     padding: 30px;
 }
 
