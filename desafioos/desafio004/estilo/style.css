@@ -48,7 +48,7 @@ header > h1{
     text-transform: uppercase;
     font-weight: 550;
     font-size: 5em;
-    padding: 70px;
+    padding: 30px;
 }
 
 main{
@@ -114,7 +114,12 @@ div h1{
 
 img{
     border-radius: 50px;
+    width: 95%;
     margin: 20px;
+}
+
+img.pequena{
+    width: 50%;
 }
 
 audio{
