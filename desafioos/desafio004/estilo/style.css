@@ -35,7 +35,7 @@
 
 body{
     background-image: radial-gradient(circle, red, black);
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 header{
