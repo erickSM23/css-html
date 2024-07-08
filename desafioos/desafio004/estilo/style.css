@@ -55,7 +55,7 @@ header > h1{
 
 main{
     background-color: var(--color5);
-    min-width: 350px;
+    min-width: 300px;
     max-width: 1000px;
     color: white;
     margin: auto;
