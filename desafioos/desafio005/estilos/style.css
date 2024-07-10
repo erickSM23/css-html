@@ -43,16 +43,17 @@ body{
 
 header{
     background-color: var(--cor5);
-    font-family: var(--fontp);
-    color: var(--cor3);
-    font-weight: 200;
-    font-size: 3em;
     padding: 30px;
     margin: auto;
 }
 
 header > h1{
     text-align: center;
+    color: var(--cor3);
+    font-weight: 200;
+    font-size: 3em;
+    font-family: var(--fontp);
+    line-height: normal;
 }
 
 main{
@@ -60,7 +61,7 @@ main{
     background-color: white;
     max-width: 1000px; 
     min-width: 300px;
-    padding: 15px;
+    padding: 30px;
     margin: auto;
 }
 
