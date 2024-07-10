@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    /* CORES */
+
+    --cor1:#36BFB1;
+    --cor2:#038C73; 
+    --cor3:#02735E;
+    --cor4:#014034;
+    --cor5:#0D0D0D;
+
+    /* FONTES */
+}
