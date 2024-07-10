@@ -83,6 +83,10 @@ main p{
     font-size: 30px;
 }
 
+img{
+    width: 100%;
+}
+
 footer{
     background-color: var(--cor1);
     padding: 10px;
