@@ -51,7 +51,7 @@ header > h1{
     text-align: center;
     color: var(--cor3);
     font-weight: 200;
-    font-size: 5em;
+    font-size: 8vw;
     font-family: var(--fontp);
     line-height: normal;
 }
