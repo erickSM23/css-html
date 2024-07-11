@@ -73,10 +73,22 @@ main h1,h2,h3,h4,h5{
 
 main h1{
     font-size: 5em;
+    padding-bottom: 50px;
+}
+
+main h2{
+    font-size: 4em;
+    padding-bottom: 200px;
+}
+
+main h3{
+    font-size: 3.8em;
+    padding-bottom: 35px;
 }
 
 main p{
     font-family: var(--fonttex);
+    padding-bottom: 100px;
     font-weight: bolder;
     text-align: center;
     line-height: 2em;
@@ -84,7 +96,7 @@ main p{
 }
 
 img{
-    width: 100%;
+    width: 50%;
 }
 
 footer{
