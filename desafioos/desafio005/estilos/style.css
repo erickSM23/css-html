@@ -95,12 +95,10 @@ main p{
     font-size: 30px;
 }
 
-img{
+main img{
     padding-bottom: 30px;
-    border-radius: 20px;
-    display: block;
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
 
 footer{
