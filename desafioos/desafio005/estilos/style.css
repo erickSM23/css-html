@@ -96,6 +96,8 @@ main p{
 }
 
 img{
+    padding-bottom: 30px;
+    border-radius: 20px;
     display: block;
     margin: auto;
     width: 60%;
