@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: principal;
+    src: url("../fontes/HelpMe.ttf") format('truetype');
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'titulos';
+    src: url("../fontes/bloodcrow.ttf") format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url("../fontes/Stranger\ back\ in\ the\ Night.ttf") format('truetype');
+    font-weight: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    /* Colores */
+    --color1: #400000;
+    --color2: #800000;
+    --color3: #BF0000;
+    --color4: #E60000;
+    --color5: #FF0000;
+
+    /* fontes */
+}
