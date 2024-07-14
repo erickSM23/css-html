@@ -40,5 +40,28 @@
 }
 
 body{
+    background-image: radial-gradient(circle, black,red);
     font-family: var(--fontpadrao);
+}
+
+header{
+    background-color: black;
+    color: var(--color5);
+    padding: 25px;
+    margin: auto;
+}
+
+header > h1{
+    font-family: var(--font_principal);
+    text-align: center;
+    font-weight: 500;
+    font-size: 4em;
+}
+
+main{
+    background-color:  #0D0D0D;
+    max-width: 1000px;
+    min-width: 320px;
+    color: white;
+    margin: auto;
 }
