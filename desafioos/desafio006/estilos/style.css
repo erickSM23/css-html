@@ -74,15 +74,20 @@ main h2{
     font-size: 3em;
 }
 
+/* adicionar outra fonte ao paragro. (essa esta muito poluida).*/
+
 main p{
     font-family: var(--font_texto);
     text-align: center;
+    font-weight: lighter;
     color: white;
+    font-size: 3em;
 }
 
 footer{
     background-color:   black;
     padding: 30px;
+    font-size: 1em;
 }
 footer > p{
     font-family: var(--font_titulos);
