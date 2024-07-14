@@ -18,6 +18,11 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'textop';
+    src: url("../fontes/Beckman-FREE.otf") format('opentype');
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -36,11 +41,11 @@
     --fontpadrao: Arial, Helvetica, sans-serif;
     --font_principal: 'principal',Arial, Helvetica, sans-serif;
     --font_titulos: 'titulos',Arial, Helvetica, sans-serif;
-    --font_texto: 'texto',Arial, Helvetica, sans-serif;
+    --font_texto: 'textop',Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-image: radial-gradient(circle, red,black);
+    background-image: radial-gradient(circle, #BF0000,black);
     font-family: var(--fontpadrao);
 }
 
@@ -62,7 +67,7 @@ main{
     background-color:  #0D0D0D;
     max-width: 1000px;
     min-width: 320px;
-    padding: 20px;
+    padding: 30px;
     margin: auto;
 }
 
@@ -71,17 +76,19 @@ main h2{
     color: var(--color2);
     font-weight: lighter;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
+    padding-bottom: 32px;
 }
-
-/* adicionar outra fonte ao paragro. (essa esta muito poluida).*/
 
 main p{
     font-family: var(--font_texto);
-    text-align: center;
+    padding-bottom: 50px;
+    text-align: justify;
     font-weight: lighter;
     color: white;
-    font-size: 3em;
+    font-size: 28px;
+    line-height: 2em;
+    text-indent: 2em;
 }
 
 footer{
