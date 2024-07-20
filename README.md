@@ -1,4 +1,6 @@
 # meus sites
+
+repositório de treino baseado no curso de *html-css* do **gustavo guanabara**
  
 <a href="https://ericksm23.github.io/css-html/desafioos/desafio001/desafiii">site do desafio001</a>
 <br>
