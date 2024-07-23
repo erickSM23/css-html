@@ -88,6 +88,12 @@ img{
     display: block;
 }
 
+@media (max-width: 768px) {
+    img {
+      width: 100%;
+    }
+  }
+
 footer{
     background-color: rgb(97, 92, 92);
     padding: 30px;
