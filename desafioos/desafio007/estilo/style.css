@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'principal';
+    src: url("../fontes/Suntage.otf") format('opentype');
+}
+
+@font-face {
+    font-family: 'titulos';
+    src: url("../fontes/Rostack.otf") format('opentype');
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url("../fontes/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf") format('opentype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --fontenormal: Arial, Helvetica, sans-serif;
+    --fonteprincipal:'principal', Arial, Helvetica, sans-serif;
+    --fontetitulo:'titulos', Arial, Helvetica, sans-serif;
+    --fonttexto:'texto', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: radial-gradient(circle,white,darkgray);
+}
+
+header{
+    background-image: linear-gradient(to bottom, darkgray, white);
+    padding: 30px;
+    margin: auto;
+}
+
+header  > h1{
+    font-family: var(--fonteprincipal);
+    text-align: center;
+    font-weight: lighter; 
+    font-size: 5em;
+    color: black;
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 320px;
+    padding: 30px;
+    margin: auto;
+}
+
+main h1,h2,h3,h4{
+    font-family: var(--fontetitulo);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+main p{
+    font-family: var(--fonttexto);
+    text-align: justify;
+    line-height: 1.3em;
+    padding-bottom: 30px;
+}
