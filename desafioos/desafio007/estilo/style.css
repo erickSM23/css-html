@@ -85,6 +85,8 @@ img{
     width:50%;
     margin: auto;
     display: block;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 @media (max-width: 768px) {
