@@ -81,6 +81,13 @@ u{
     font-weight: bold;
 }
 
+img{
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding: 100px;
+}
+
 footer{
     background-color: rgb(97, 92, 92);
     padding: 30px;
