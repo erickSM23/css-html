@@ -82,11 +82,10 @@ u{
 }
 
 img{
-    display: block;
-    width: 75%;
+    width:100%;
+    max-width: 55%;
     margin: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    display: block;
 }
 
 footer{
