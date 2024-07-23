@@ -77,6 +77,10 @@ main p{
     font-size: 22px;
 }
 
+u{
+    font-weight: bold;
+}
+
 footer{
     background-color: rgb(97, 92, 92);
     padding: 30px;
