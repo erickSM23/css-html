@@ -7,12 +7,20 @@
     <style>
         iframe {
             height: 700px;
-            width: 98vw;
+            width: 97vw;
             
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
         }
     </style>
 </head>
-<body>
+<body> 
     <h1>teste final de iframe...</h1>
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque ipsam eaque doloribus alias dignissimos laborum molestiae, architecto deserunt optio tempora voluptatibus reiciendis earum expedita quisquam consequatur necessitatibus totam tempore?
@@ -23,9 +31,36 @@
             <li><a href="https://ericksm23.github.io/css-html/desafioos/desafio006/index.html" target="tela">site002</a></li>
             <li><a href="https://ericksm23.github.io/css-html/desafioos/desafio007/index.html" target="tela">site003</a></li>
         </ul>
-        <iframe srcdoc="" sandbox="sandbox allow-scripts" name="tela">
+        <iframe srcdoc="<h1>bom dia</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam, tempora commodi dignissimos laudantium quas consectetur necessitatibus quam excepturi quasi eum nemo labore! Ab officia ea est a possimus sit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum sunt officiis aperiam dolorum tenetur porro, totam id molestiae fugit suscipit harum sint hic eaque distinctio modi, veniam nam, error nesciunt!</p>" sandbox="sandbox allow-scripts" name="tela">
             seu navegador não é compativel...
         </iframe>
+        <table>
+            <tbody>
+                <colgroup>
+                    <col>
+                    <col>
+                    <col>
+                </colgroup>
+                
+                <tr>
+                    <th scope="col">primeiro</th>
+                    <th scope="col">segundo</th>
+                    <th scope="col">terceiro</th>
+                </tr>
+            </tbody>
+            <theader>
+                <tr>
+                    <td colspan="3">1</td>
+                </tr>
+                <tr>
+                    <td colspan="2">2</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">vai</td>
+                </tr>
+            </theader>           
     </p>
+
 </body>
 </html>
