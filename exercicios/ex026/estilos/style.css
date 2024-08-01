@@ -30,3 +30,30 @@ section#telefone {
     transform: translate(-50%, -50%);
     background:  url("../imagens/frame-iphone.png") no-repeat;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: right;
+    box-shadow: 2px 2px 2px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 1px solid red;
+    transform: translate(-10px, -10px);
+    transition: transform 1s, border 1s;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 265px;
+    height: 470px;
+}
