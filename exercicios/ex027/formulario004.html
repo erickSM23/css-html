@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendendo novos tipos de configurações do input</title>
+</head>
+<body>
+    <h1>cadastro</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+    
+        <p>
+            <label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" required minlength="10" maxlength="40" placeholder="nome completo">
+        </p>
+        <p>
+            <label for="isenha">senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="5" maxlength="25" placeholder="nova senha" autocomplete="new-password">
+        </p>
+        <p>
+            <label for="inascimento">nascimento</label>
+            <input type="date" name="nascimento" id="inascimento" required>
+        </p>
+        <p>
+            <label for="ihora">hora da inscrição</label>
+            <input type="time" name="hora" id="ihora" required>
+        </p>
+        <p>
+            <label for="imedia">media atual:</label>
+            <input type="number" name="media" id="imedia" step="0.1" placeholder="0 a 10" min="0" max="10" required>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
