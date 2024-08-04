@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendendo a criar formulários</title>
+</head>
+<body>
+    <h1>cadastro</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" required minlength="10" maxlength="35" placeholder="nome completo" >
+        </p>
+        <p>
+            <label for="isenha">senha</label>
+            <input type="password" name="senha" id="isenha" autocomplete="new-password" required minlength="5" maxlength="30" placeholder="senha forte" size="15">
+        </p>
+        <p>
+            <label for="inascimento">nascimento:</label>
+            <input type="date" name="nascimento" id="inascimento" required>
+        </p>
+        <p>
+            <label for="ihora">horario de inscrição</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
