@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>aprendendo configurações de formulários</title>
 </head>
 <body>
     <h1>exemplo de formulario</h1>
 
     <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="ifem"><label for="ifem">feminino</label><br>
+            <input type="radio" name="sexo" id="imas"><label for="imas">masculino</label>
+        </fieldset>
+        <fieldset>
+            <legend>esportes</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut"> futbol</label><br>
+            <input type="checkbox" name="bas" id="ibas"><label for="ibas">basquete</label><br>
+            <input type="checkbox" name="bei" id="ibei"><label for="ibei">beisebol</label><br>
+            <input type="checkbox" name="quei" id="iquei"><label for="iquei">queimada</label><br>
+            <input type="checkbox" name="pega" id="ipega"><label for="ipega">pega pega</label><br>
+        </fieldset>
         <p>
             <input type="submit" value="enviar">
-            <input type="reset" value="resetar">
+            <input type="reset" value="limpar">
         </p>
     </form>
 </body>
