@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reforçando na memoria</title>
+</head>
+<body>
+    <h1>preencha as informações abaixo</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">estado:</label>
+            <select name="est"id="iest">
+                <option value="" selected>selecione</option>
+                <optgroup label="teste">
+                    <option value="RJ">rio de janeiro</option>
+                    <option value="MT">mato grosso</option>
+                </optgroup>
+                <optgroup label="super desconto novo na mesa para conseguir testar para ver como teste se sai teste">
+                    <option value="SP">são paulo</option>
+                    <option value="MG">minas gerais</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">profissão</label>
+            <input type="text" name="prof" id="iprof" list="ilista">
+            <datalist id="ilista">
+                <option value="acima">abaixo</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="itexto">texto</label><br>
+            <textarea name="texto" id="itexto" cols="30" rows="10">receba</textarea>
+        </p>
+    </form>
+</body>
+</html>
