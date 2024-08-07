@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encerrando a parte de formulários com um exercicio final</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>cadastro</legend>
+            <p>
+                <label for="iem">email:</label>
+                <input type="email" name="em" id="iem" autocomplete="email" required placeholder="exemplo001@gmail.com">
+            </p>
+            <p>
+                <label for="inome">nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="name" placeholder="nome completo" required minlength="10" maxlength="35" size="18">
+            </p>
+            <p>
+                <label for="isen">senha:</label>
+                <input type="password" name="sen" id="isen" required minlength="10" maxlength="30" autocomplete="new-password" size="15" placeholder="senha email">
+            </p>
+            <p>
+                <label for="itele">telefone:</label>
+                <input type="tel" name="tele" id="itele" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx">
+            </p>
+            <p>
+                <label for="iarea">digite oque você achou desse formulário</label><br>
+                <textarea name="area" id="iarea" cols="32" rows="5" required></textarea>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>sobre você</legend>
+            <p>
+                <label for="iani">data de aniversario</label>
+                <input type="month" name="ani" id="iani" required>
+            </p>
+            <p>
+                <label for="">sexo:</label>
+                <input type="radio" name="sex" id="imas">
+                <label for="imas">masculino</label>
+                <input type="radio" name="sex" id="ifem">
+                <label for="ifem">feminino</label>
+            </p>
+            <p>
+                <label for="">comidas favoritas:</label><br>
+                <input type="checkbox" name="piz" id="ipiz"> <label for="ipiz">pizza</label><br>
+                <input type="checkbox" name="ham" id="iham"> <label for="iham">hambúguer</label><br>
+                <input type="checkbox" name="cac" id="icac"> <label for="icac">cachorro quente</label><br>
+                <input type="checkbox" name="arr" id="iarr"> <label for="iarr">arroz com frango</label><br>
+                <input type="checkbox" name="nem" id="inem"><label for="inem">nenhuma das alternativas</label>
+            </p>
+            <p>
+                <label for="ini">nivel de satisfação</label>
+                <input type="range" name="ni" id="ini" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>mais sobre você</legend>
+            <label for="ipa">pais que você nasceu</label>
+            <select name="pa" id="ipa">
+                <option value="pí" selected>países</option>
+                <option value="rs">ruissia</option>
+                <option value="cd">canada</option>
+                <option value="cn">china</option>
+                <option value="eua">estados unidos</option>
+                <option value="br">brazil</option>
+                <option value="aust">austrália</option>
+                <option value="ind">india</option>
+            </select>
+            <p>
+                <label for="ipro">profissão:</label>
+                <input type="text" name="pro" id="ipro" list="ilista" required>
+                <datalist id="ilista">
+                    <option value="DEV">programado</option>
+                    <option value="MED">medico</option>
+                    <option value="VT">veterinario</option>
+                    <option value="PM">policial militar</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="inas">nascimento:</label>
+                <input type="date" name="nas" id="inas" required>
+            </p>
+            <p>
+                <label for="ihor">hora atual:</label>
+                <input type="time" name="hor" id="ihor">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
