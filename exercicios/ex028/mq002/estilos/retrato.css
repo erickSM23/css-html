@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* dispositivo em pé (portrait) */
+
+body {
+    background-color: red;
+    background-image: url("../imagens/cev-portrait.jpg");
+}
