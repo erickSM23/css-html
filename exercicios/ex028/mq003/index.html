@@ -5,11 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site de aprendizado</title>
    <style>
-        /*declarações gerais*/
+        /* configurações gerais */
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: arial, Arial, Helvetica, sans-serif;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 0px rgb(23, 23, 121);
+            padding: 10px;
+        }
 
         /*declarações retrato*/
-        
+        @media screen and (orientation: portrait) {
+            body {
+                background-image: url("../imagens/cev-portrait.jpg");
+                background-position: center bottom;
+            }
+        }
+
         /*declaração paisagem*/
+        @media screen and (orientation: landscape){
+            body {
+                background-image: url("../imagens/cev-landscape.jpg");
+                background-position: left bottom;
+            }
+        }    
 </style>
 </head>
 <body>
