@@ -1,3 +1,33 @@
 @charset "UTF-8";
 
-/*versão para medias queries*/
+/* versão para medias queries */
+
+/* typical device break points:
+    320px — 480px: dispositivos móveis.
+    481px — 768px: iPads, tablets.
+    769px — 1024px: telas pequenas, laptops.
+    1025px — 1200px: desktops, telas grandes.
+    1201px e acima — telas muito grandes, TVs.
+*/
+
+@media print {
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { /*TABLET*/
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { /* TELAS PEQUENAS */
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) { /* TELAS GRANDES/DESKTOPS*/
+    
+}
+
+@media screen and (min-width:1201px) { /* TELAS MUITO GRANDE/TV*/
+    
+}
+
+/* MINUTO DO VIDEO ATUAL 7:30 segundos*/
