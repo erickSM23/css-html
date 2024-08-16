@@ -15,19 +15,39 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) { /*TABLET*/
+    body {
+        background-image: url("../imagens/back-tablet.jpg");
+    }
     
-}
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) { /* TELAS PEQUENAS */
-    
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) { /* TELAS GRANDES/DESKTOPS*/
-    
+    body {
+        background-image: url("../imagens/back-pc.jpg");
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}   
 }
 
 @media screen and (min-width:1201px) { /* TELAS MUITO GRANDE/TV*/
+    body {
+        background-image: url("../imagens/back-tv.jpg");
+    }    
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
     
 }
 
-/* MINUTO DO VIDEO ATUAL 7:30 segundos*/
