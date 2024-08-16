@@ -11,7 +11,25 @@
 */
 
 @media print {
-    
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        
+    }
+
+    main {
+        border: 1px solid black;
+    }
+
+    img {
+        width: 80vw;
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) { /*TABLET*/
