@@ -24,5 +24,7 @@
 }
 
 @media screen and (orientation: portrait) {
-    
+    body {
+        background-image: url("../imagens/back-phone.jpg");
+    }
 }
