@@ -9,3 +9,15 @@
     1025px — 1200px: desktops, telas grandes.
     1201px e acima — telas muito grandes, TVs.
 */
+
+@media print {
+    h1, p {
+        color: black;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:480px){
+    body {
+        background-image: url("../imagens/PD2.webp");
+    }
+}
