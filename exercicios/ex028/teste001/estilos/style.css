@@ -33,3 +33,7 @@ p {
     line-height: 1.5em;
     padding: 20px;
 }
+
+strong {
+    font-weight: normal;
+}
