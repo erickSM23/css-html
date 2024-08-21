@@ -20,5 +20,13 @@
     menu > ul > li {
         display: inline-block;
     }
+
+    main {
+        width: 600px;
+    }
+
+    p {
+        font-size: 1.4em;
+    }
     
 }
