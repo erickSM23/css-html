@@ -19,11 +19,26 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+span#menu {
+    background-color: rgba(0, 0, 0, 0.541);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    cursor: pointer;
 }
 
-menu >  ul{
+span#menu:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
     list-style-type: none;
 }
 
