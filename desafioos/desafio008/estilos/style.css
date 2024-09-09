@@ -25,12 +25,29 @@ section#login {
     left: 50%;
     background-color: white;
     transform: translate(-50%, -50%);
+    height: 515px;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px black;
 }
 
-div#imagem {
+section#login > div#imagem {
     display: block;
+    background: url("../imagens/pexels-jplenio-1103970.jpg") no-repeat top right;
+    background-size: cover;
+    height: 200px;
 }
 
-div#formulario {
+section#login > div#formulario {
     display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
