@@ -22,21 +22,22 @@
                         <span class="material-symbols-outlined">
                             alternate_email
                             </span>
-                        <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email" required>
+                        <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email" required maxlength="30">
                     </div>
                     <div class="campo">
                         <span class="material-symbols-outlined">
                             password
                             </span>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required autocomplete="current-password">
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required autocomplete="current-password" minlength="8" maxlength="20">
                     </div>
                     <input type="submit" value="entrar">
-                    <a href="esqueci.html">
+                    <a href="esqueci.html" id="esqueci">
                         esqueci a senha
+                        <span class="material-symbols-outlined">
+                            data_loss_prevention
+                        </span>
                     </a>
-                    <span class="material-symbols-outlined">
-                        data_loss_prevention
-                    </span>
+                    
                 </form>
             </div>
             
