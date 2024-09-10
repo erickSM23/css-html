@@ -29,7 +29,7 @@ section#login {
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 10px black;
 
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
