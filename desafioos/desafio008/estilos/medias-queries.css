@@ -39,17 +39,17 @@
     }
 
     section#login {
-        width: 90vw;
+        width: 70vw;
     }
 
     section#login > div#imagem {
         float: right;
         height: 100%;
-        width: 30%;
+        width: 50%;
     }
 
     section#login > div#formulario {
         float: left;
-        width: 70%;
+        width: 50%;
     }
 }
