@@ -23,15 +23,14 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: white;
     transform: translate(-50%, -50%);
-    height: 515px;
+    background-color: white;
     width: 250px;
+    height: 515px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 1px 1px 10px black;
-
-    transition: width 0.4s, height 0.4s;
+    box-shadow: 1px 1px 1px black;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
