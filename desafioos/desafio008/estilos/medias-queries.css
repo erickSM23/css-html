@@ -31,6 +31,11 @@
         width: 70%;
     }
 
+    div.campo > input{
+       width: ;
+       transform: translateY(-15px);
+      
+    }
 }
 
 @media screen and (min-width: 769px) { /* TELAS GRANDES E POR DIANTE */
@@ -59,5 +64,9 @@
 
     div#formulario > p {
         font-size: 1em;
+    }
+
+    div.campo > input {
+        transform: translateY(-13px);
     }
 }
