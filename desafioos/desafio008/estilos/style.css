@@ -38,7 +38,7 @@ section#login > div#imagem {
     display: block;
     background: url("../imagens/pexels-jplenio-1103970.jpg") no-repeat top right;
     background-size: cover;
-    height: 200px;
+    height: 250px;
 }
 
 section#login > div#formulario {
