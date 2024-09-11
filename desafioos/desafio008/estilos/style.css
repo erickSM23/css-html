@@ -26,7 +26,7 @@ section#login {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 515px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 1px 1px 1px black;
@@ -38,7 +38,7 @@ section#login > div#imagem {
     display: block;
     background: url("../imagens/pexels-jplenio-1103970.jpg") no-repeat top right;
     background-size: cover;
-    height: 250px;
+    height: 200px;
 }
 
 section#login > div#formulario {
