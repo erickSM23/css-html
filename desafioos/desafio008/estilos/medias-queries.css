@@ -32,8 +32,8 @@
     }
 
     div.campo > input{
-       width: ;
-       transform: translateY(-15px);
+       width: calc(100% - 45px);
+       transform: translateY(-12px);
       
     }
 }
