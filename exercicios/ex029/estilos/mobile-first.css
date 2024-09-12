@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+main > section#login {
+    height: 515px;
+    width: 250px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: white;
+    border-radius: 20px;
+}
+
+section#login > div#imagem {
+    height: 30%;
+    
+}
