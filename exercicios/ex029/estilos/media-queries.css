@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 481px) and (max-width:768px) {
     body {
-        
+        background-image: url('../imagens/foto5.jpg');
     } 
     
     main > section#login {
