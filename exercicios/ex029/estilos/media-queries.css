@@ -22,4 +22,31 @@
         height: 100%;
         width: 40%;
     }
+
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        background-image: url("../imagens/foto3.jpg");
+        background-position: normal;
+    }
+
+    main > section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
 }
