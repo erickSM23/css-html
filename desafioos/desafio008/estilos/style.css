@@ -131,7 +131,8 @@ div.campo > input {
     height: 100%;
     border: 0px;
     padding: 5px;
-    border-radius: 8px
+    border-radius: 8px;
+    color: white;
 }
 div.campo > input::placeholder {
     color: white;
@@ -141,4 +142,5 @@ div.campo > input::placeholder {
 
 div.campo > input:focus-within {
     background-color: white;
+    color: black;
 }
