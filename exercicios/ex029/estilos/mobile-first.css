@@ -82,6 +82,11 @@ div.campo > input {
     transform: translateY(-14px);
     border: none;
     font-size: 1em;
+    background-color: white;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 div.campo > span {
