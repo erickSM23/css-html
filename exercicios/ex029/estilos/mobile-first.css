@@ -2,6 +2,14 @@
 
 /* MOBILE FIRST */
 
+:root {
+    --color1: #6387F2; 
+    --color2: #011526; 
+    --color3: #024873; 
+    --color4: #023859;  
+    --color5: #04668C;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -45,8 +53,62 @@ section#login > div#imagem {
     
     background: url("../imagens/foto1.jpg") no-repeat center center;
     background-size: cover;
-}
+} 
 
 section#login > div#formulario {
+    padding: 10px;
+}
 
-} 
+div#formulario > p {
+    text-align: center; 
+    margin: 15px 0px;
+}
+
+div#formulario > h1 {text-align: center;} 
+
+div#formulario > div.campo {
+    background-color: var(--color3);
+}
+
+div.campo > span {
+    background-color: blac;
+    color: white;
+    padding: 5px;
+}
+
+div#formulario input[type="submit"] {
+    display: block;
+    width: 100%;
+    height: 35px;
+
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+
+    background-color: var(--color5);
+    color: white;
+}
+
+div#formulario input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--color4);
+}
+
+div#formulario > a#esqueci {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    margin: 10px 0px;
+}
+
+a#esqueci > span {
+    font-size: 1.7em;
+}
