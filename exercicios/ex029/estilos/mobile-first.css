@@ -68,12 +68,27 @@ div#formulario > h1 {text-align: center;}
 
 div#formulario > div.campo {
     background-color: var(--color3);
+    margin: 10px 0px;
+    border-radius: 8px;
+    height: 40px;
+    border: 2px solid var(--color3);
+}
+
+div.campo > input {
+    width: calc(100% - 45px);
+    border-radius: 8px;
+    height: 100%;
+    padding: 5px;
+    transform: translateY(-14px);
+    border: none;
+    font-size: 1em;
 }
 
 div.campo > span {
-    background-color: blac;
     color: white;
     padding: 5px;
+    font-size: 2em;
+    width: 40px;
 }
 
 div#formulario input[type="submit"] {
