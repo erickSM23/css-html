@@ -31,7 +31,7 @@ main {
 }
 
 main > section#login {
-    height: 515px;
+    height: 575px;
     width: 250px;
 
     position: absolute;
