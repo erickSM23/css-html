@@ -17,24 +17,27 @@
             <div id="formulario">
                 <h1>login</h1>
                 <p>bem vindo(a) novamente! digite seu email e sua senha para entrar na sua conta.</p>
-                <div class="campo">
-                    <span class="material-symbols-outlined">
-                        assignment_ind
-                    </span>
-                    <input type="email" name="email" id="iemail">
-                </div>
-                <div class="campo">
-                    <span class="material-symbols-outlined">
-                        lock
-                    </span>
-                    <input type="password" name="senha" id="isenha">
-                </div>
-                <input type="submit" value="entrar">
-                <a href="esqueci.html" id="esqueci">
-                    esqueci a senha <span class="material-symbols-outlined"> 
-                     report
-                    </span></a>
-            </div>
+                <form action="login.php" autocomplete="on" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            assignment_ind
+                        </span>
+                        <input type="email" name="email" id="iemail" required autocomplete="email" maxlength="30">
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            lock
+                        </span>
+                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" minlength="8" maxlength="20">
+                    </div>
+                    <input type="submit" value="entrar">
+                    <a href="esqueci.html" id="esqueci">
+                        esqueci a senha <span class="material-symbols-outlined">
+                         report
+                        </span>
+                    </a>
+                    </div>
+                </form>
         </section>
     </main>
 </body>
