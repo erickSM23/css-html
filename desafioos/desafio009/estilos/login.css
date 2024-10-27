@@ -89,11 +89,11 @@ div.campo > input {
 }
 
 div.campo > input#email {
-    width: calc(100% - 58px);
+    width: calc(100% - 55px);
 }
 
 div.campo > input#senha {
-    width: calc(100% - 57px);
+    width: calc(100% - 56px);
 }
 
 div#login  input[type="submit"] {
