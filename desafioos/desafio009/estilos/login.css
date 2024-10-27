@@ -89,7 +89,7 @@ div.campo > input {
 }
 
 div.campo > input#email {
-    width: calc(100% - 51px);
+    width: calc(100% - 52px);
 }
 
 div.campo > input#senha {
