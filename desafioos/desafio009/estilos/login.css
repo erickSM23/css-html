@@ -88,6 +88,14 @@ div.campo > input {
     
 }
 
+div.campo > input#email {
+    width: calc(100% - 58px);
+}
+
+div.campo > input#senha {
+    width: calc(100% - 57px);
+}
+
 div#login  input[type="submit"] {
     margin: auto;
     display: block;
