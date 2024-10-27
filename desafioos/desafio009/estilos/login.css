@@ -79,7 +79,7 @@ div#login div.campo {
 }
 
 div.campo > input {
-    width: calc(100% - 60px);
+    width: calc(100% - 58px);
     height: 100%;
     transform: translateY(-0.3px);
 
