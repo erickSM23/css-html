@@ -16,7 +16,10 @@
 body, html {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+}
+
+body {
+    background-image: radial-gradient(circle, gray,  black);
 }
 
 main {
@@ -26,15 +29,26 @@ main {
 }
 
 section#formm {
-    padding: 10px;
     position: absolute;
     overflow: hidden;
-    height: 350px;
-    width: 500px;
+    height: 500px;
+    width: 300px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     background-color: white;
     border-radius: 10px;
+}
+
+section#formm > div#imagem {
+    background-color: black;
+    background: black url(../imagens/fundo.jpg) center center no-repeat;
+    background-size: cover;
+    height: 40%;
+}
+
+section#formm > div#login {
+    height: 60%;
+    padding: 10px;
 }
