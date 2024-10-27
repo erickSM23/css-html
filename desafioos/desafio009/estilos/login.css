@@ -45,6 +45,7 @@ section#formm > div#imagem {
     background-color: black;
     background: black url(../imagens/fundo.jpg) center center no-repeat;
     background-size: cover;
+    
     height: 40%;
 }
 
@@ -59,5 +60,18 @@ div#login > h1 {
 
 div#login > p {
     text-align: center;
+
     margin: 20px;
+}
+
+div#login div.campo {
+    background-color: black;
+}
+
+div#login  input[type="submit"] {
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    width: 80%;
+    height: 30px;
 }
