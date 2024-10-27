@@ -31,7 +31,7 @@ main {
 section#formm {
     position: absolute;
     overflow: hidden;
-    height: 515px;
+    height: 555px;
     width: 270px;
     top: 50%;
     left: 50%;
@@ -65,7 +65,24 @@ div#login > p {
 }
 
 div#login div.campo {
+    height: 40px;
+    margin: 10px 0px;
+    display: block;
+
     background-color: black;
+    color: gold;
+    border-radius: 8px;
+    border: 1px solid gold;
+}
+
+div.campo > input {
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-0.3px);
+
+    border-radius: 8px;
+    border: 0px;
+    
 }
 
 div#login  input[type="submit"] {
