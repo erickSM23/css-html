@@ -52,3 +52,12 @@ section#formm > div#login {
     height: 60%;
     padding: 10px;
 }
+
+div#login > h1 {
+    text-align: center;
+}
+
+div#login > p {
+    text-align: center;
+    margin: 20px;
+}
