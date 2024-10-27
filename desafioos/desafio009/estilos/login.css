@@ -74,4 +74,16 @@ div#login  input[type="submit"] {
     margin-top: 30px;
     width: 80%;
     height: 30px;
+
+    border: none;
+    background-color: black;
+    color: gold;
+    border-radius: 10px;
+}
+
+div#login input[type="submit"]:hover {
+    background-color: white;
+    
+    color: black;
+    border: 2px solid black;
 }
