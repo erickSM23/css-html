@@ -19,11 +19,11 @@
                 <form action="pagina2.html" autocomplete="on" method="post">
                     <div class="campo">
                         <label for="email">email:</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="digite seu email:" required minlength="10" maxlength="40">
                     </div>
                     <div class="campo">
                         <label for="senha">senha:</label>
-                        <input type="password" name="senha" id="senha">
+                        <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="digite sua senha:" required minlength="8" maxlength="35">
                     </div>
                     <input type="submit" value="entrar">
                 </form>

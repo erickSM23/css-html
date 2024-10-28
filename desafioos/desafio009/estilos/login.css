@@ -88,6 +88,15 @@ div.campo > input {
     border-radius: 8px;
     border: 0px;
     
+    
+}
+
+div.campo > input::placeholder {
+    color: gold;
+}
+
+div.campo > input:focus-within {
+    text-align: center;
 }
 
 div.campo > input#email {
@@ -116,4 +125,5 @@ div#login input[type="submit"]:hover {
     
     color: black;
     border: 2px solid black;
+    cursor: pointer;
 }
