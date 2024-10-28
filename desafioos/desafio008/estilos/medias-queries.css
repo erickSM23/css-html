@@ -29,6 +29,7 @@
     section#login > div#formulario {
         float: right;
         width: 70%;
+        height: 100%;
     }
 
     div.campo > input {

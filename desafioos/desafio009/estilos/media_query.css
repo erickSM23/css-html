@@ -1,0 +1,91 @@
+/*
+    TYPICAL DECIVE BREAKPOINTS
+
+    320px — 480px: dispositivos móveis.
+    481px — 768px: iPads, tablets.
+    769px — 1024px: telas pequenas, laptops.
+    1025px — 1200px: desktops, telas grandes.
+    1201px e acima — telas muito grandes, TVs.
+    1 de dez. de 2021
+*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) { /* TABLETS */
+    body {
+        background-image: radial-gradient(circle, red, black);
+    }
+    
+    section#formm {
+        width: 80vw;
+        height: 450px;
+    }
+
+    section#formm > div#imagem {
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+
+    section#formm > div#login {
+        float: right;
+        width: 70%;
+    }
+
+    div#login > h1 {
+        font-size: 2em;
+    }
+
+    div.campo > input#email {
+        width: calc(100% - 49px);
+    }
+    
+    div.campo > input#senha {
+        width: calc(100% - 50px);
+    }
+
+    label {
+        padding-left: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) { /* TELAS MÉDIAS E GRANDES */
+    body {
+        background-image: linear-gradient(to right, white, black);
+    }
+
+    section#formm {
+        width: 80vw;
+        height: 400px;
+    }
+
+    div#login > h1 {
+        font-size: 2.6em;
+    }
+
+    section#formm > div#imagem {
+        float: right;
+        height: 100%;
+        width: 40%;
+    }
+
+    section#formm > div#login {
+        float: left;
+        width: 60%;
+    }
+
+    div.campo > input {
+        padding-left: 10px;
+    }
+    
+    div.campo > input#email {
+        width: calc(100% - 49px);
+    }
+
+    div.campo > input#senha {
+        width: calc(100% - 50px);
+    }    
+
+    label {
+        padding-left: 5px;
+    }
+}
