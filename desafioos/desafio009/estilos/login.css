@@ -41,6 +41,9 @@ section#formm {
 
     background-color: white;
     border-radius: 10px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#formm > div#imagem {
