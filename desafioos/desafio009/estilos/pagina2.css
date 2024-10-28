@@ -22,3 +22,11 @@ a {
     text-decoration: none;
     font-size: 4.9em;
 }
+
+a:hover {
+    color: red;
+    
+    font-family: normal;
+
+    transition: 2s;
+}
