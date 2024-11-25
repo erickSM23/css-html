@@ -1,10 +1,11 @@
 /*
-    Small devices (portrait tablets and large phones, 600px and up) 
+    Mobile Devices. Extra Small Mobile (Portrait): 320px – 480px. ...
 
-    Medium devices (landscape tablets, 768px and up) 
+    Tablets. Small Tablets (Portrait): 601px – 768px. ...
 
-    Large devices laptops/desktops, 992px and up 
+    Laptops and Small Desktops. Small Desktops and Laptops: 1025px – 1280px. ...
 
-    Extra large devices (large laptops and desktops, 1200px and up) 
+    Large Desktops. Large Desktops and High-Resolution Screens: 1281px – 1440px. ...
 
-/*
+    Extra-Large Screens.
+*/

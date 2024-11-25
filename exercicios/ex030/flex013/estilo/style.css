@@ -28,16 +28,26 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
     flex: 0 0 200px;
+}
+
+
+span {
+    padding: 10px;
+    align-self: stretch;
+
+    background-color: gray;
+    color: gray;
+
+    text-align: center;
+
+    cursor: default;
 }
 
 nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-
-    border: 1px dotted black;
 }
 
 nav > a {

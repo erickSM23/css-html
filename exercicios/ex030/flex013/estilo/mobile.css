@@ -1,0 +1,30 @@
+@charset "UTF-8"; 
+body {
+    overflow-x: hidden;
+}
+
+header, header > nav {
+    flex-flow: column nowrap;
+}
+
+header > h1 {
+    flex-basis: 70px;
+}
+
+span {
+    display: none;
+
+    background-color: black;
+    color: white;
+    
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: white;
+    color: black;
+}
+
+nav > a{
+   width: 90vw;
+}
