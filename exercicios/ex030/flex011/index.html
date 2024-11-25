@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>primeiros passo em flexbox</title>
+        <style>
+            div.conteiner {
+                height: 400px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+
+                background-color: gold;
+            }
+            
+            div.item {
+                
+                flex-basis: 300px;
+
+                background-color: darkgray;
+                border: 1px solid black;
+                color: white;
+                
+                text-align: center;
+            }
+            
+            div#a {
+                order: 0;
+                flex-shrink: 2;
+                flex-grow: 2;
+            }
+
+            div#b {
+                order: 0;
+                flex-shrink: 4;
+                flex-grow: 8;
+            }  
+
+            div#c {
+                order: 0;
+                flex-shrink: 5;
+                flex-grow: 0;
+            }
+            </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C a verdade por tras do mundo é algo peculiar se comparado</div>
+    </div>
+    </body>
+    </html>

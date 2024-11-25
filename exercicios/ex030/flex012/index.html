@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passo em flexbox</title>
+    <style>
+        div.conteiner {
+            display: flex;
+            flex-flow: row nowrap;
+
+            background-color: gold;
+        }
+
+        div.item {
+            background-color: darkgray;
+            border: 1px solid black;
+
+            text-align: center;
+        }
+
+        div#A {
+           /* flex: (grow) (shrink) (basis); */
+            flex: 0 1 300px;
+        }
+        
+        div#B {
+            flex: 0 1 300px;
+        }
+
+        div#C {
+            flex: 0 1 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="A">A</div>
+        <div class="item" id="B">B</div>
+        <div class="item" id="C">C</div>
+    </div>
+</body>
+</html>
