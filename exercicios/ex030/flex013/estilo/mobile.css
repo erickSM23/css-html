@@ -25,6 +25,10 @@ span:hover {
     color: black;
 }
 
+nav {
+    display: none;
+}
+
 nav > a{
-   width: 90vw;
+    width: 90vw;
 }
