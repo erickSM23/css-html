@@ -18,4 +18,3 @@ repositório de treino baseado no curso de *html-css* do **gustavo guanabara**
 <br>
 <a href="https://ericksm23.github.io/css-html/desafioos/desafio008/index.html">**site do desafio008**</a>
 <br>
-<a href="https://ericksm23.github.io/css-html\desafioos\desafio009\pagina1.html">**site do desafio009**</a>
