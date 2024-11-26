@@ -25,6 +25,11 @@ span:hover {
     color: black;
 }
 
+
+#ico {
+    display: block;
+}
+
 nav {
     display: none;
 }
