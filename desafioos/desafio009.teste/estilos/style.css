@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #3D4435;
+    color: #C2C8CC;
+}
+
+header > div#meio {
+    
+}
+
+main {
+    height: 99.3vh;
+}
+
+div#imagem {
+    height: 100%;
+
+    background: black url("../imagens/pexels-joelsantosfotografias-15780875.jpg") center left no-repeat;
+    background-size: cover;
+}

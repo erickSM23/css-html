@@ -11,13 +11,16 @@ header {
 }
 
 header h1 {
-    padding-right: 40px;
+    padding-top: 20px;
 
-    text-align: center
+    font-family: serif;
+    font-weight: 200;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 header > div#pai {
-    height: 60px;
+    height: 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -29,12 +32,59 @@ div#ico {
 }
 
 nav#menu {
-    display: ;
+    width: 700px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+    background-color: red;
+}
+
+nav#menu > a {
+    color: #C2C8CC;
+
+    font-size: 18px;
+    text-decoration: none;
 }
 
 div#bot {
     align-self: flex-start;
 }
+
+div#bot > a#entrar {
+    color: #C2C8CC;
+    
+    text-decoration: none;
+}
+
+div#bot > a#comigo {
+    color:  black;
+    background-color: #C2C8CC;
+
+    text-decoration: none;
+    padding: 20px;
+}
+
+div#bot > a#comigo:hover {
+    background-color: darkgray;
+}
+
+div#parag {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+    
+}
+
+div#parag > p {
+    padding-top: 30px;
+}
+
+div#parag > p#p {
+    padding-bottom: 40px;
+} 
 
 main {
     height: 99.3vh;
