@@ -6,85 +6,75 @@
 }
 
 header {
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
     background-color: #3D4435;
     color: #C2C8CC;
 }
 
-header h1 {
-    padding-top: 20px;
+header > div#esquerda {
+    align-self: flex-start;
 
-    font-family: serif;
-    font-weight: 200;
-    font-size: 2.5em;
+    font-size: 6em;
+}
+
+header > div#meio {
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
     text-align: center;
 }
 
-header > div#pai {
-    height: 100px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
+div#meio > h1 {
+    font-size: 2.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
 }
 
-div#ico {
+div#meio > nav {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+}
+
+nav > a {
+    padding-left: 10px;
+
+    color: #C2C8CC;
+
+    text-decoration: none;
+}
+
+div#meio > p {
+    font-size: 1.7em;
+}
+
+header > div#direita {
+    padding-top: 67px;
     align-self: flex-start;
 }
 
-nav#menu {
-    width: 700px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    
-    background-color: red;
-}
-
-nav#menu > a {
+div#direita > a#entrar {
     color: #C2C8CC;
 
-    font-size: 18px;
     text-decoration: none;
+    font-size: 1.1em;
 }
 
-div#bot {
-    align-self: flex-start;
-}
-
-div#bot > a#entrar {
-    color: #C2C8CC;
-    
-    text-decoration: none;
-}
-
-div#bot > a#comigo {
-    color:  black;
-    background-color: #C2C8CC;
-
-    text-decoration: none;
+div#direita > a#comigo {
     padding: 20px;
-}
 
-div#bot > a#comigo:hover {
-    background-color: darkgray;
-}
+    background-color: #C2C8CC;
+    color: black;
 
-div#parag {
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    
-    
+    text-decoration: none;
+    font-size: 1.1em;
 }
-
-div#parag > p {
-    padding-top: 30px;
-}
-
-div#parag > p#p {
-    padding-bottom: 40px;
-} 
 
 main {
     height: 99.3vh;
