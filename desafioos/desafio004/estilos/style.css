@@ -1,2 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: ;
+    src: url(../);
+}
+
+:root {
+    --color1: #F2B705; 
+    --color2: #F29F05; 
+    --color3: #F27405; 
+    --color4: #D95204; 
+    --color5: #A62F03; 
+
+
+}
