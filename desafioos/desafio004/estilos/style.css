@@ -24,19 +24,27 @@
 * {
     margin: 0px;
     padding: 0px;
+
+    box-sizing: border-box;
 }
 
 header {
+    height: 170px;
+
+    background-color: var(--color2);    
+}
+
+div#cabeça {
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
+    
     background-color: var(--color2);
 }
 
-header > h1 {
+div#cabeça > h1 {
     padding-top: 40px;
 
     font-family: var(--font_titulo);
@@ -44,11 +52,11 @@ header > h1 {
     font-size: 3em;
 }
 
-header > nav {
-    align-self: flex-start
+div#cabeça > nav {
+    align-self: flex-start;
 }
 
-header > nav > a {
+div#cabeça > nav > a {
     margin-left: 10px;
 
     color: black;
@@ -59,8 +67,9 @@ header > nav > a {
     font-weight: 100;
 }
 
-a:hover {
+div#cabeça > nav > a:hover {
     padding: 10px;
+   
 
     background-color: black;
     color: var(--color1);
