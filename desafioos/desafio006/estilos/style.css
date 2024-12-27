@@ -1,104 +1,88 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'principal';
-    src: url("../fontes/HelpMe.ttf") format('truetype');
-    font-weight: normal
-}
-
-@font-face {
-    font-family: 'titulos';
-    src: url("../fontes/bloodcrow.ttf") format('truetype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'texto';
-    src: url("../fontes/Stranger\ back\ in\ the\ Night.ttf") format('truetype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'textop';
-    src: url("../fontes/Beckman-FREE.otf") format('opentype');
-}
-
-*{
-    padding: 0px;
+* {
     margin: 0px;
+    padding: 0px;
 }
 
-:root{
-    /* Colores */
-    --color1: #400000;
-    --color2: #800000;
-    --color3: #BF0000;
-    --color4: #E60000;
-    --color5: #FF0000;
+header {
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
 
-    /* fontes */
-
-    --fontpadrao: Arial, Helvetica, sans-serif;
-    --font_principal: 'principal',Arial, Helvetica, sans-serif;
-    --font_titulos: 'titulos',Arial, Helvetica, sans-serif;
-    --font_texto: 'textop',Arial, Helvetica, sans-serif;
+    background-color: #3D4435;
+    color: #C2C8CC;
 }
 
-body{
-    background-image: radial-gradient(circle, #BF0000,black);
-    font-family: var(--fontpadrao);
+header > div#esquerda {
+    align-self: flex-start;
+
+    font-size: 6em;
 }
 
-header{
-    background-color: black;
-    padding: 25px;
-    margin: auto;
-}
+header > div#meio {
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
 
-header > h1{
-    font-family: var(--font_principal);
-    color: var(--color3);
     text-align: center;
-    font-weight: 500;
-    font-size: 4em;
 }
 
-main{
-    background-color:  #0D0D0D;
-    max-width: 1000px;
-    min-width: 320px;
-    padding: 30px;
-    margin: auto;
+div#meio > h1 {
+    font-size: 2.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
 }
 
-main h2{
-    font-family: var(--font_titulos);
-    color: var(--color2);
-    font-weight: lighter;
-    text-align: center;
-    font-size: 4em;
-    padding-bottom: 32px;
+div#meio > nav {
+    font-size: 1.3em;
+    padding-bottom: 20px;
 }
 
-main p{
-    font-family: var(--font_texto);
-    padding-bottom: 50px;
-    text-align: justify;
-    font-weight: lighter;
-    color: white;
-    font-size: 28px;
-    line-height: 2em;
-    text-indent: 2em;
+nav > a {
+    padding-left: 10px;
+
+    color: #C2C8CC;
+
+    text-decoration: none;
 }
 
-footer{
-    background-color:   black;
-    padding: 30px;
-    font-size: 1em;
+div#meio > p {
+    font-size: 1.7em;
 }
-footer > p{
-    font-family: var(--font_titulos);
-    color: var(--color5); 
-    text-align: center;
-    font-size: 2.5em;
+
+header > div#direita {
+    padding-top: 67px;
+    align-self: flex-start;
+}
+
+div#direita > a#entrar {
+    color: #C2C8CC;
+
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+div#direita > a#comigo {
+    padding: 20px;
+
+    background-color: #C2C8CC;
+    color: black;
+
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+main {
+    height: 99.3vh;
+}
+
+div#imagem {
+    height: 100%;
+
+    background: black url("../imagens/pexels-joelsantosfotografias-15780875.jpg") center left no-repeat;
+    background-size: cover;
 }
