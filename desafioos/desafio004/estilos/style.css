@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'texto';
-    src: url('../fontes/BebasNeue-Regular.otf') format(opentype);
+    src: url('../fontes/PlaywriteNZ-VariableFont_wght.ttf') format(opentype);
 }
 
 @font-face {
     font-family: 'titulos';
-    src: url('../fontes/BEER.TTF') format(opentype);
+    src: url('../fontes/MochiyPopOne-Regular.ttf') format(opentype);
 }
 
 :root {
@@ -78,54 +78,47 @@ div#cabeça > nav > a:hover {
     transition: 1s;
 }
 
-main > section {
+section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-}
-
-main > section.normal {
-    background-color: white;
-}
-
-main > section.normal > p {
-    padding: 20px;
-
-
+    padding-left: 30px;
     line-height: 2em;
-    font-size: 30px;
-}
-
-main > section.normal > h1 {
-    padding: 20px;
-
-    font-size: 36px;
-} 
-
-main > section.imagem > p {
-    padding: 20px;
-
-
-    line-height: 2em;
-    font-size: 30px;
-}
-
-main > section.imagem > h1 {
-    padding: 20px;
-
-    font-size: 36px;
-} 
-
-main > section.imagem {
-    background-color: black;
-    color: white;
+    font-family: var(--fonte_texto);
+    font-size: 2.8vw;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
 }
 
 section > h1 {
+    padding-bottom: 50px;
+
     font-family: var(--font_titulo);
     font-weight: normal;
 }
 
-section > p {
-    font-family: var(--font_texto);
+section > p{
+    padding-bottom: 2em;
+    
+    font-family: var(--fonte_texto);
     font-weight: normal;
+}
+   
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 8px;
+    text-shadow: 1px 1px 0px;
 }
