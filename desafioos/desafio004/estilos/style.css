@@ -92,13 +92,13 @@ main > section.normal > p {
 
 
     line-height: 2em;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 main > section.normal > h1 {
     padding: 20px;
 
-    font-size: 50px;
+    font-size: 36px;
 } 
 
 main > section.imagem > p {
@@ -106,13 +106,13 @@ main > section.imagem > p {
 
 
     line-height: 2em;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 main > section.imagem > h1 {
     padding: 20px;
 
-    font-size: 50px;
+    font-size: 36px;
 } 
 
 main > section.imagem {
