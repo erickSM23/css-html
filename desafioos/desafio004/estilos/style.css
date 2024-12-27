@@ -90,11 +90,15 @@ main > section.normal {
 main > section.normal > p {
     padding: 20px;
 
-    font-size: 23px;
+
+    line-height: 38px;
+    font-size: 30px;
 }
 
 main > section.normal > h1 {
     padding: 20px;
+
+    font-size: 36px;
 } 
 
 main > section.imagem {
