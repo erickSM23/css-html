@@ -87,6 +87,16 @@ main > section.normal {
     background-color: white;
 }
 
+main > section.normal > p {
+    padding: 20px;
+
+    font-size: 23px;
+}
+
+main > section.normal > h1 {
+    padding: 20px;
+} 
+
 main > section.imagem {
     background-color: black;
     color: white;
