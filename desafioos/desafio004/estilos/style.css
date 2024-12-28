@@ -29,13 +29,13 @@
 }
 
 header {
-    height: 217px;
+    height: 260px;
 
     background-color: var(--color2);    
 }
 
 div#cabeça {
-    height: 200px;
+    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
