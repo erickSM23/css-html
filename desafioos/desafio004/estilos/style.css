@@ -131,7 +131,7 @@ section.imagem > p{
 
 section#img1 {
     background-image: url('../imagens/pexels-alexasfotos-2198671.jpg');
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
