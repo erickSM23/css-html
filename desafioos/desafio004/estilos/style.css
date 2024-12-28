@@ -46,6 +46,7 @@ div#cabeça {
 
 div#cabeça > h1 {
     padding-top: 40px;
+    padding-bottom: 60px;
 
     font-family: var(--font_titulo);
     font-weight: normal;
