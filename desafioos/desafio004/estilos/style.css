@@ -1,13 +1,18 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'texto';
+    font-family: 'texto1';
     src: url('../fontes/PlaywriteNZ-VariableFont_wght.ttf') format(opentype);
 }
 
 @font-face {
     font-family: 'titulos';
     src: url('../fontes/MochiyPopOne-Regular.ttf') format(opentype);
+}
+
+@font-face {
+    font-family: 'texto2';
+    src: url('../fontes/BebasNeue-Regular.otf');
 }
 
 :root {
@@ -17,7 +22,8 @@
     --color4: #D95204; 
     --color5: #A62F03; 
 
-    --font_texto: 'texto';
+    --font_texto1: 'texto1';
+    --font_texto2: 'texto2';
     --font_titulo: 'titulos';
 }
 
@@ -64,7 +70,7 @@ div#cabeça > nav > a {
 
     font-size: 23px;
     text-decoration: none;
-    font-family: var(--font_texto);
+    font-family: var(--font_texto1);
     font-weight: 100;
 }
 
@@ -99,8 +105,8 @@ section > h1 {
 section > p{
     padding-bottom: 2em;
     
-    font-family: var(--fonte_texto);
-    font-weight: normal;
+    font-family: var(--font_);
+    font-weight: 200;
 }
    
 section.normal{
@@ -121,6 +127,27 @@ section.imagem > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.699);
     padding: 8px;
+}
+
+section#img1 {
+    background-image: url('../imagens/pexels-alexasfotos-2198671.jpg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section#img2 {
+    background-image: url('../imagens/pexels-caio-772571.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center left;
+}
+
+section#img3 {
+    background: url('../imagens/pexels-pixabay-460961.jpg') center left no-repeat fixed;
+    background-size: cover;
 }
 
 footer {
