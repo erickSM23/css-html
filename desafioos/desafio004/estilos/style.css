@@ -121,3 +121,17 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.699);
     padding: 8px;
 }
+
+footer {
+    padding: 30px;
+
+    background-color: var(--color4);
+
+    text-align: center;
+}
+
+footer > p {
+    font-family: var(--font_titulo);
+    font-size: 2em;
+    font-weight: normal;
+}
