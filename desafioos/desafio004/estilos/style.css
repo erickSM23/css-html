@@ -69,9 +69,9 @@ div#cabeça > nav > a {
     color: black;
 
     font-size: 23px;
-    text-decoration: none;
+    text-decoration: underline;
     font-family: var(--font_texto1);
-    font-weight: 100;
+    font-weight: 400;
 }
 
 div#cabeça > nav > a:hover {
@@ -81,6 +81,8 @@ div#cabeça > nav > a:hover {
     background-color: black;
     color: var(--color1);
     border-radius: 30px;
+    
+    text-decoration: none;
 
     transition: 1s;
 }
