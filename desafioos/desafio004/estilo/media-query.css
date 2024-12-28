@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 769px){
+    body {
+        display: none
+    }    
+}
+
+section#img1 {
+    position: ;
+}
+
+section#img2 {
+    position: ;
+}
+
+section#img3 {
+    position: ; 
+}
