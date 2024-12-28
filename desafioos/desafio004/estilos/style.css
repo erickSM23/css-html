@@ -131,7 +131,7 @@ section.imagem > p{
 
 section#img1 {
     background-image: url('../imagens/pexels-alexasfotos-2198671.jpg');
-    background-position: left center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -146,14 +146,14 @@ section#img2 {
 }
 
 section#img3 {
-    background: url('../imagens/pexels-pixabay-460961.jpg') center left no-repeat fixed;
+    background: url('../imagens/pexels-pixabay-460961.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
 footer {
     padding: 30px;
 
-    background-color: var(--color4);
+    background-color: var(--color1);
 
     text-align: center;
 }
