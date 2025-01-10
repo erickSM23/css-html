@@ -20,8 +20,8 @@
     font-size: 1.3em;
 }
 
-html {
-    height: 100vh;
+body {
+    height: 97vh;
 
     background: black url(../imagens/back-phone.jpg) no-repeat center center;
     background-size: cover;

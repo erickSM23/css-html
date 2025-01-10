@@ -1,11 +1,17 @@
+/* 
+    Tablets: 768px a 991px 
+
+    Notebooks/Desktops pequenos: 992px a 1199px 
+
+    Desktops grandes: 1200px a 1919px
+
+    TVs e telas extragrandes: 1920px e acima 
+*/
+
 /*
-    Mobile Devices. Extra Small Mobile (Portrait): 320px – 480px. ...
+    Tablets: 768px a 991px
 
-    Tablets. Small Tablets (Portrait): 601px – 768px. ...
+    Desktops (abrangendo pequenos e grandes): 992px a 1919px
 
-    Laptops and Small Desktops. Small Desktops and Laptops: 1025px – 1280px. ...
-
-    Large Desktops. Large Desktops and High-Resolution Screens: 1281px – 1440px. ...
-
-    Extra-Large Screens.
+    Telas extragrandes (TVs): 1920px e acima
 */

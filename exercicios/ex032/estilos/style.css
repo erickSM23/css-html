@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+strong#revele {
+    color: red;
+}
+
+strong#revele:hover {
+    color: rgb(0, 255, 0);
+}
+
+strong#texto {
+    display: none;
+}
+
