@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    height: 97vh;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+}
+
+div.teste {
+    background-color: ;
+    padding: 10px;
+}
