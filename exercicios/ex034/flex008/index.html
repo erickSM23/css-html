@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos em flex-box</title>
+    <style>
+        div.conteiner {
+            height: 500px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+
+            background-color: lightsalmon;
+        }
+
+        div.item {
+            padding: 40px;
+            background-color: lightskyblue;
+            border: 1px solid black;
+
+            text-align: center;
+        }
+
+        div#itemA {
+            order: 0;
+            align-self: auto;
+        }
+        
+        div#itemB {
+            order: 0;
+            align-self: flex-start;
+        }
+
+        div#itemC {
+            order: 0;
+            align-self: flex-end;
+        }
+
+        div#itemD {
+            order: 0;
+            align-self: center;
+        }
+
+        div#itemE {
+            order: 0;
+            align-self: stretch;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="itemA">A</div>
+        <div class="item" id="itemB">B</div>
+        <div class="item" id="itemC">C</div>
+        <div class="item" id="itemD">D</div>
+        <div class="item" id="itemE">E</div>
+    </div>
+</body>
+</html>
