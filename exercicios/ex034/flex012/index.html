@@ -13,7 +13,7 @@
         }
         
         div.item {
-            flex-basis: 300px;
+            flex: 3;
 
             background-color: lightskyblue;
             border: 1px solid black;
@@ -21,22 +21,7 @@
             text-align: center;
         }
 
-        div #item1 {
-            flex-shrink: 1;
-            flex-grow: 0; 
-        }
-
-        div #item2 {
-            flex-shrink: 1;
-            flex-grow: 0; 
-        }
-
-        div #item3 {
-            flex-shrink: 1;
-            flex-grow: 0; 
-        }
-
-
+        /* ORDEM CORRETA DA DECLARAÇÃO FLEX: grow, shrik, basis */
     </style>
 </head>
 <body>
