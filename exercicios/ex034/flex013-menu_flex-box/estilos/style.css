@@ -51,6 +51,8 @@ header > nav > a {
 
     text-decoration: none;
     text-align: center;
+
+    border: 1px dotted red;
 }
 
 nav > a:hover {
