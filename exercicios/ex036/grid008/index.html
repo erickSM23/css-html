@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        div#pai {
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 500px 200px 200px 100px 200px;
+            grid-template-rows: 200px 200px;
+            gap: 30px;
+            place-items: end center;
+
+            background-color: cyan;
+            color: black;
+
+            text-align: center;
+        }
+
+        div.item {           
+            background-color: red;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+
+    </div>
+</body>
+</html>
