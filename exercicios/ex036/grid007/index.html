@@ -13,8 +13,9 @@
 
         div#pai {
             display: grid;
-            grid-template-columns: 200px 200px 200px 100px 200px;
-            grid-template-rows: 300px 100px;
+            grid-template-columns: repeat(3, minmax(100px, 300px));
+            gap: 20px 50px;
+            /*row-gap   column-gap*/
 
             background-color: cyan;
             color: black;
@@ -23,9 +24,6 @@
         }
 
         div.item {
-            margin: 20px;
-        
-           
             background-color: red;
         }
     
