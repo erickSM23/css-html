@@ -8,39 +8,36 @@
         * {
             margin: 0px;
             padding: 0px;
-            box-sizing: border-box;
         }
 
-        body, html {
-            height: 100vh;
-            width: 100vw;
-
-            background-color: white;
-        }
-
-        div#pai {
+        div#conteiner {
             display: grid;
             gap: 10px;
-            grid-template-areas: none
-            'header header'
-            'main section'
-            'footer footer';
-            grid-auto-rows: 200px;
-
-            background-color: cyan;
-            color: black;
+            grid-template-areas: 
+            'header header header'
+            'aside article section'
+            'footer footer footer'
+            ; 
+                           /*primeira coluna 200px segunda coluna 100px*/
+            grid-auto-rows: 200px 100px;
         }
 
         header {
             grid-area: header;
 
-            background-color: purple;
+            background-color: blueviolet;
         }
 
-        main { 
-            grid-area: main;
+        aside {
+            grid-area: aside;
 
-            background-color: darkcyan;
+            background-color: darkblue;
+        }
+
+        article {
+            grid-area: article;
+
+            background-color: crimson;
         }
 
         section {
@@ -52,23 +49,26 @@
         footer {
             grid-area: footer;
 
-            background-color: greenyellow;
+            background-color: chartreuse;
         }
     
     </style>
 </head>
 <body>
-    <div id="pai">
-        <header class="item">
+    <div id="conteiner">
+        <header class="header">
             header
         </header>
-        <main class="item">
-            main
-        </main>
-        <section class="item">
-            section
+        <aside>
+            sidebar
+        </aside>
+        <article>
+            article 
+        </article>
+        <section>
+            section 
         </section>
-        <footer class="item">
+        <footer>
             footer
         </footer>
     </div>
