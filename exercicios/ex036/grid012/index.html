@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100vh;
+            width: 100vw;
+
+            background-color: white;
+        }
+
+        div#pai {
+            display: grid;
+            gap: 10px;
+            grid-template-areas: none
+            'header header'
+            'main section'
+            'footer footer';
+            grid-auto-rows: 200px;
+
+            background-color: cyan;
+            color: black;
+        }
+
+        header {
+            grid-area: header;
+
+            background-color: purple;
+        }
+
+        main { 
+            grid-area: main;
+
+            background-color: darkcyan;
+        }
+
+        section {
+            grid-area: section;
+
+            background-color: gold;
+        }
+
+        footer {
+            grid-area: footer;
+
+            background-color: greenyellow;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <header class="item">
+            header
+        </header>
+        <main class="item">
+            main
+        </main>
+        <section class="item">
+            section
+        </section>
+        <footer class="item">
+            footer
+        </footer>
+    </div>
+</body>
+</html>
