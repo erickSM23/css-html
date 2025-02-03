@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body, html {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        div#conteiner {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            gap: 50px 100px;
+            grid-template-areas: 
+            'header header'
+            'aside article'
+            'section section'
+            ;
+            grid-auto-rows: 200px 100px;
+            grid-template-columns: repeat(2, 200px);
+            place-content: center;
+            
+            background-color: cyan;
+        }
+
+    
+        header {
+            grid-area: header;
+
+            background-color: gold;
+        }
+
+        aside {
+            grid-area: aside;
+
+            background-color: brown;
+        }
+
+        article {
+            grid-area: article;
+
+            background-color: blueviolet;
+        }
+
+        section {
+            grid-area: section;
+
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <header class="header">
+            header
+        </header>
+        <aside>
+            sidebar
+        </aside>
+        <article>
+            article 
+        </article>
+        <section>
+            section 
+        </section>
+    </div>
+</body>
+</html>
