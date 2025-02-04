@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body, html {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        div#conteiner {
+            display: grid;
+            gap: 50px 100px;
+        }
+
+    
+        header {
+            background-color: gold;
+        }
+
+        aside { 
+            background-color: brown;
+        }
+
+        article {
+            background-color: blueviolet;
+        }
+
+        section {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <header class="header">
+            header
+        </header>
+        <aside>
+            sidebar
+        </aside>
+        <article>
+            article 
+        </article>
+        <section>
+            section 
+        </section>
+    </div>
+</body>
+</html>
