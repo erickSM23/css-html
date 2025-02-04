@@ -16,24 +16,39 @@
         }
 
         div#conteiner {
+            background-color: red;
+            height: 100vh;
             display: grid;
-            gap: 50px 100px;
+           
+            align-content: center;
         }
 
     
         header {
+            grid-column: span 2;
+            justify-self: center;
+
             background-color: gold;
         }
 
         aside { 
+            justify-self: end;
+            margin-right: 100px;
+
             background-color: brown;
         }
 
         article {
+            justify-self: start;
+
             background-color: blueviolet;
         }
 
         section {
+            grid-column: span 2;
+            justify-self: center;
+            
+
             background-color: navy;
         }
     </style>
