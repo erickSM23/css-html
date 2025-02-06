@@ -16,38 +16,39 @@
         }
 
         div#conteiner {
+            background-color: red;
+            height: 100vh;
             display: grid;
-            gap: 10px;
-            grid-template-areas: 
-            'header '
-            ''
-            ;
-
-            color: white;
+           
+            align-content: center;
         }
 
     
         header {
-            grid-area: header;
+            grid-column: span 2;
+            justify-self: center;
 
             background-color: gold;
         }
 
         aside { 
-            grid-area: aside;
+            justify-self: end;
+            margin-right: 100px;
 
             background-color: brown;
         }
 
         article {
-            grid-area: article;
+            justify-self: start;
 
             background-color: blueviolet;
         }
 
-        section {             
-            grid-area: section;
+        section {
+            grid-column: span 2;
+            justify-self: center;
             
+
             background-color: navy;
         }
     </style>
