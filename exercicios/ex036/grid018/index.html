@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        div#flexivel {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div#container {
+            width: 90vw;
+            max-width: 600px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 2fr;
+        }   
+
+        .header {
+            grid-column: span 2;
+
+            background-color: yellowgreen;
+        }
+
+        .sidebar {
+            grid-row: span 2;
+
+            background-color: blueviolet;
+        }
+
+        .main {
+            background-color: blue;
+        }
+
+        .secondary {
+            background-color: gold;
+        }
+
+        .footer {
+            grid-column: span 2;
+
+            background-color: brown;
+        }
+
+        .item {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="flexivel">
+        <div id="container">
+            <div class="header item">Cabeçalho</div>
+            <div class="sidebar item">Menu</div>
+            <div class="main item">Conteúdo Principal</div>
+            <div class="secondary item">Seção Extra</div>
+            <div class="footer item">Rodapé</div>
+        </div>
+    </div>
+</body>
+</html>

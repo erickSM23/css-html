@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body, html {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        div#conteiner {
+            height: 100vh;
+            display: grid;
+            align-content: center;
+        }
+
+        header { 
+            grid-column: span 2;
+            justify-self: center;
+            margin-bottom: -90px;
+
+            background-color: blue;
+        }
+
+        aside {
+            justify-self: end;
+            margin-right: 230px;
+
+            background-color: gold ;
+        }
+
+        article {
+            justify-self: start;
+
+            background-color: red;
+        }
+ 
+        section {
+            margin-top: -90px;
+            grid-column: span 2;
+            justify-self: center;
+
+            background-color: green;
+        }    
+
+        .item {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <header class="item">
+            header
+        </header>
+        <aside class="item">
+            sidebar
+        </aside>
+        <article class="item">
+            article 
+        </article>
+        <section class="item">
+            section 
+        </section>
+    </div>
+</body>
+</html>
