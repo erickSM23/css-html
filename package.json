@@ -1,0 +1,25 @@
+{
+  "name": "css-html",
+  "version": "1.0.0",
+  "description": "repositório de treino baseado no curso de *html-css* do **gustavo guanabara**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickSM23/css-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickSM23/css-html/issues"
+  },
+  "homepage": "https://github.com/erickSM23/css-html#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9"
+  }
+}
