@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'teste';
+    src: url('font/AlmostTextual.ttf');
+}
+
+h1 {
+    font-size: 5em;
+    color: red;
+    font-family: 'teste';
+    font-weight: 400;
+}
